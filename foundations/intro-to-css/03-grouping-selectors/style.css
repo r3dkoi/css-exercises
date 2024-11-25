@@ -1,0 +1,16 @@
+/* Styliiing */
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    background: yellow;
+    color: black;
+}
+
+.font-size-and-family {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
+}
