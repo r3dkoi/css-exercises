@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="selectors-styles.css">
   </head>
   <body>
     <!--I just noticed they actually give the hints on which
@@ -15,13 +15,19 @@
     thing to another id since they're special while classes can
     be same name?-->
 
+    <!-- Learnt to group selectors so even though its same selector
+     it can also be used to differentiate. E.g the odd-number will
+     be applied to all the other odd-number classes, while the one
+     with the "cooler" one is also affected but has an extra
+     special styling that doesn't affect the other odd-number classes.-->
+
     <p class="odd-number">Number 1 - I'm a class!</p>
 
-    <div id="number-2">Number 2 - I'm one ID.</div>
+    <div id="number2">Number 2 - I'm one ID.</div>
 
-    <p class="odd-number">Number 3 - I'm a class, but cooler!</p>
+    <p class="odd-number cooler">Number 3 - I'm a class, but cooler!</p>
 
-    <div id="number-4">Number 4 - I'm another ID.</div>
+    <div id="number4">Number 4 - I'm another ID.</div>
 
     <p class="odd-number">Number 5 - I'm a class!</p>
   </body>
