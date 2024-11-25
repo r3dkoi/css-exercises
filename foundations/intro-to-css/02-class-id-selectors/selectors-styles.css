@@ -8,5 +8,19 @@
 }
 
 #number4 {
-    
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
 }
+
+/* Doing <class> styling */
+
+.odd-number {
+    background-color: #f08080;
+    font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+.cooler {
+    font-size: 24px;
+}
+
