@@ -14,3 +14,14 @@
     font-size: 28px;
     font-family: 'Helvetica', 'Times New Roman', 'sans-serif';
 }
+
+/* Instead of having .button1 and .button2 with extra font-size-and-family;
+they reduced their keystrokes by combining it into this:
+
+.button1
+.button2
+{
+font-size: 28px etc
+}
+
+the .font-size-and-family isnt necessary :O! */
