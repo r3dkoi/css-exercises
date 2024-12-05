@@ -40,7 +40,7 @@ a {
 .header{
   background-color: pink;
   display: flex;
-  align-items: flex-start;
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -53,14 +53,20 @@ a {
   background-color: red;
   padding: 10px;
   display: flex;
+  justify-content: space-between;
   margin-top: auto;
 }
 
 .left-links {
   display: flex;
+  background-color: white;
+  justify-content: flex-start;
 
 }
 
 .right-links {
   display: flex;
+  background-color: black;
+  justify-content: flex-end;
+
 }
